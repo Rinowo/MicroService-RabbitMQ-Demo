@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: DISCOVERY-GATEWAY-SERVICE
+  cloud:
+    gateway:
+      routes:
+        - id: PRODUCT-SERVICE
+          uri: lb://PRODUCT-SERVICE
+          predicates:
+            - Path=/api/product/**
+        - id: SENDER-SERVICE
+          uri: lb://SENDER-SERVICE
+          predicates:
+            - Path=/rabbit-mq/**
+        - id: RECEIVER-SERVICE
+          uri: lb://RECEIVER-SERVICE
+          predicates:
+            - Path=/rabbit-mq/**
+      discovery:
+        locator:
+          enabled: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    instance:
+      hostname: localhost
+
+server:
+  port: 8761

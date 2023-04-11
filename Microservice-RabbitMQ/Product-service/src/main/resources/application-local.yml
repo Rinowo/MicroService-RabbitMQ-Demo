@@ -1,0 +1,29 @@
+server:
+  port: 8081
+
+
+spring:
+  application:
+    name: Product-Service
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo?createDatabaseIfNotExist=true
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+  redis:
+    port: 6379
+    host: localhost
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  cache:
+    cache-names:
+      - rate-limit-buckets
+    caffeine:
+      spec: maximumSize=100000, expireAfterAccess=3600s
