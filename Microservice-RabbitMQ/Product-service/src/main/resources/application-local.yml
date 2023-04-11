@@ -1,8 +1,12 @@
 server:
   port: 8081
 
-
 spring:
+  rabbitmq:
+    queue:
+      name: Product-Queue
+    exchange:
+      name: Product-Exchange
   application:
     name: Product-Service
   datasource:

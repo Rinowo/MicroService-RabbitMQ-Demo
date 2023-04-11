@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../MicroService-RabbitMQ-Demo/Microservice-RabbitMQ/.idea/Microservice-RabbitMQ.iml" filepath="$PROJECT_DIR$/../MicroService-RabbitMQ-Demo/Microservice-RabbitMQ/.idea/Microservice-RabbitMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Discovery-Gateway/Discovery-Gateway.iml" filepath="$PROJECT_DIR$/Discovery-Gateway/Discovery-Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Microservice-RabbitMQ.iml" filepath="$PROJECT_DIR$/.idea/Microservice-RabbitMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Product-service/Product-service.iml" filepath="$PROJECT_DIR$/Product-service/Product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMQ-Receiver/RabbitMQ-Receiver.iml" filepath="$PROJECT_DIR$/RabbitMQ-Receiver/RabbitMQ-Receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMQ-Sender/RabbitMQ-Sender.iml" filepath="$PROJECT_DIR$/RabbitMQ-Sender/RabbitMQ-Sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Api-Gateway/gateway.iml" filepath="$PROJECT_DIR$/Api-Gateway/gateway.iml" />
     </modules>
   </component>
 </project>

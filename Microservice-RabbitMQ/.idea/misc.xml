@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Api-Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Discovery-Gateway/pom.xml" />
         <option value="$PROJECT_DIR$/Product-service/pom.xml" />
-        <option value="$PROJECT_DIR$/RabbitMQ-Listener/pom.xml" />
         <option value="$PROJECT_DIR$/RabbitMQ-Sender/pom.xml" />
         <option value="$PROJECT_DIR$/RabbitMQ-Receiver/pom.xml" />
-        <option value="$PROJECT_DIR$/Discovery-Gateway/pom.xml" />
       </list>
     </option>
   </component>

@@ -15,7 +15,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Common" target="18" />
+      <module name="Discovery-Gateway" target="11" />
+      <module name="gateway" target="11" />
+      <module name="Product-service" target="11" />
+      <module name="RabbitMQ-Receiver" target="11" />
+      <module name="RabbitMQ-Sender" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
